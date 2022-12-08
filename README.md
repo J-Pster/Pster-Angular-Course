@@ -1,5 +1,7 @@
 # Aprendendo Angular 🎓
 
+### Aprendi angular, em 5 horas 😻
+
 Este projeto foi feito usando o **Angular**, e estamos usando o [Json Server](https://www.npmjs.com/package/json-server), por conta disso, você vai precisar rodar ele localmente, já que eu não tenho recursos para hospedar uma DB só pra isso 😅
 
 ![Preview](https://i.imgur.com/CuQLUxe.png)
