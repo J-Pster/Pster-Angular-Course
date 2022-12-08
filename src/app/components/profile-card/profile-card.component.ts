@@ -12,7 +12,11 @@ export class ProfileCardComponent {
 
   constructor() {}
 
-  handleClick() {
+  handleDelete() {
     this.deleteDev.emit(this.developer);
+  }
+
+  handleView() {
+    console.log('view');
   }
 }

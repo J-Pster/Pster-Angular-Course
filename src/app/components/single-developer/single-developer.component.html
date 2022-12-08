@@ -1,0 +1,9 @@
+<div *ngIf="developer; else Loading" >
+  <h1>{{developer.name}}</h1>
+  <h2>{{developer.job}}, {{developer.age}} | {{developer.location}}</h2>
+  <p>{{developer.bio}}</p>
+  <h4>Frameworks: {{developer.frameworks.join(", ")}}</h4>
+</div>
+<ng-template #Loading>
+  <h1>Loading...</h1>
+</ng-template>

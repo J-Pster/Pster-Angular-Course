@@ -19,4 +19,8 @@ export class ListDevelopersService {
   getDevs(): Observable<Developer[]> {
     return this.http.get<Developer[]>(this.apiUrl);
   }
+
+  getDev(id: number): Observable<Developer> {
+    return this.http.get<Developer>(`${this.apiUrl}/${id}`);
+  }
 }

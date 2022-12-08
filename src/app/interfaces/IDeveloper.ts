@@ -1,4 +1,5 @@
 interface Developer {
+  id: number;
   name: string;
   age: number;
   job: string;

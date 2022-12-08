@@ -17,6 +17,7 @@ import { NumberChangerComponent } from './components/number/number-changer/numbe
 import { ListDevelopersComponent } from './components/list-developers/list-developers.component';
 import { TwoWayDataComponent } from './components/two-way-data/two-way-data.component';
 import { OthersComponent } from './components/others/others.component';
+import { SingleDeveloperComponent } from './components/single-developer/single-developer.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { OthersComponent } from './components/others/others.component';
     ListDevelopersComponent,
     TwoWayDataComponent,
     OthersComponent,
+    SingleDeveloperComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
   providers: [],

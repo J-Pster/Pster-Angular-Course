@@ -3,7 +3,10 @@
   <h2>{{developer.job}}, {{developer.age}} | {{developer.location}}</h2>
   <p>{{developer.bio}}</p>
   <h4>Frameworks: {{developer.frameworks.join(", ")}}</h4>
-  <button (click)="handleClick()">
+  <button id="delete" (click)="handleDelete()">
     Deletar
+  </button>
+  <button id="view" routerLink="/developer/{{ developer.id }}">
+    Ver
   </button>
 </div>
