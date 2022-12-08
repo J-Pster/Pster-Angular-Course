@@ -1,10 +1,6 @@
 <h1>Olá Mundo! Eu sou o Angular =D</h1>
-<app-first-component></app-first-component>
-<app-profile-card [developer]="developers[0]"></app-profile-card>
-<app-parent-data [currentData]="currentData" [appVersion]="appVersion"></app-parent-data>
-<app-directives></app-directives>
-<app-if-render></app-if-render>
-<app-events></app-events>
-<app-number-show></app-number-show>
-<app-list-developers [developers]="developers" ></app-list-developers>
-<app-two-way-data></app-two-way-data>
+<nav>
+  <button routerLink="/">Developers</button>
+  <button routerLink="/two-way-data">Two Way Data</button>
+</nav>
+<router-outlet></router-outlet>
