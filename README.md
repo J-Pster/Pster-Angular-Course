@@ -17,9 +17,11 @@ Faça o clone do projeto, e entre na pasta dele.
 - [x] Criar um projeto Angular
 - [x] Criar componentes
 - [x] Criar rotas
+- [x] Criar rotas dinâmicas
 - [x] Criar serviços
 - [x] Criar pipes
 - [x] Criar diretivas
 - [x] Criar módulos
 - [x] Criar formulários
 - [x] Criar subscrições e observables
+- [x] Fazer requisições HTTP
