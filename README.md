@@ -1,7 +1,7 @@
 # Aprendendo Angular 🎓
 
 Você pode ver o projeto [rodando aqui!](http://pster-angular-course.vercel.app/)
-![Preview](https://i.imgur.com/PZIkOST.png)
+![Preview](https://i.imgur.com/CuQLUxe.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
