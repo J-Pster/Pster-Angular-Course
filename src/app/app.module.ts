@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -15,6 +16,7 @@ import { NumberShowComponent } from './components/number/number-show/number-show
 import { NumberChangerComponent } from './components/number/number-changer/number-changer.component';
 import { ListDevelopersComponent } from './components/list-developers/list-developers.component';
 import { TwoWayDataComponent } from './components/two-way-data/two-way-data.component';
+import { OthersComponent } from './components/others/others.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +31,9 @@ import { TwoWayDataComponent } from './components/two-way-data/two-way-data.comp
     NumberChangerComponent,
     ListDevelopersComponent,
     TwoWayDataComponent,
+    OthersComponent,
   ],
-  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

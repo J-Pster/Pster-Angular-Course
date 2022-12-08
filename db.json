@@ -1,0 +1,43 @@
+{
+  "developers": [
+    {
+      "name": "João Pster",
+      "age": 25,
+      "job": "Developer",
+      "location": "São Paulo, Brazil",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.",
+      "frameworks": [
+        "React",
+        "Angular",
+        "Vue",
+        "Django"
+      ]
+    },
+    {
+      "name": "Maria Pster",
+      "age": 23,
+      "job": "Designer",
+      "location": "São Paulo, Brazil",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.",
+      "frameworks": [
+        "MongoDb",
+        "Postgres",
+        "MySQL",
+        "Django"
+      ]
+    },
+    {
+      "name": "Pedro Pster",
+      "age": 26,
+      "job": "Developer",
+      "location": "São Paulo, Brazil",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.",
+      "frameworks": [
+        "React",
+        "Angular",
+        "Vue",
+        "Django"
+      ]
+    }
+  ]
+}

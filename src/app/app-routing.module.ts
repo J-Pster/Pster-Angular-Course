@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ListDevelopersComponent } from './components/list-developers/list-developers.component';
 import { TwoWayDataComponent } from './components/two-way-data/two-way-data.component';
+import { OthersComponent } from './components/others/others.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'two-way-data',
     component: TwoWayDataComponent,
+  },
+  {
+    path: 'others',
+    component: OthersComponent,
   },
 ];
 
