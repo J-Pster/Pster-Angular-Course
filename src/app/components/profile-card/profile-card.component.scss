@@ -1,0 +1,18 @@
+#profile {
+  gap: .5rem;
+  padding: 1rem;
+  border-radius: 10px;
+
+  max-width: 400px;
+
+  h1, h2, h4 {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    color: #333;
+
+    margin-top: -.8rem;
+  }
+}
