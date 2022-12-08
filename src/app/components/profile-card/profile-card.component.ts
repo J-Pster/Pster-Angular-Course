@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import Developer from 'src/app/interfaces/IDeveloper';
 
 @Component({
@@ -7,7 +7,12 @@ import Developer from 'src/app/interfaces/IDeveloper';
   styleUrls: ['./profile-card.component.scss'],
 })
 export class ProfileCardComponent {
+  @Output() deleteDev: EventEmitter<any> = new EventEmitter();
   @Input() developer!: Developer;
 
   constructor() {}
+
+  handleClick() {
+    this.deleteDev.emit(this.developer);
+  }
 }

@@ -1,6 +1,6 @@
 <div>
   <h1>Developers</h1>
   <div id="list">
-    <app-profile-card *ngFor="let developer of developers" [developer]="developer"></app-profile-card>
+    <app-profile-card (deleteDev)="onDeleteDev(developer)" *ngFor="let developer of developers" [developer]="developer"></app-profile-card>
   </div>
 </div>

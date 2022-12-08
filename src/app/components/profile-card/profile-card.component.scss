@@ -15,4 +15,19 @@
 
     margin-top: -.8rem;
   }
+
+  button {
+    margin-top: 1rem;
+
+    border-radius: 10px;
+    border: none;
+
+    padding: .5rem 1rem;
+
+    background-color: rgb(252, 71, 71);
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+  }
 }
