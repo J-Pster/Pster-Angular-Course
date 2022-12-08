@@ -6,6 +6,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ProfileCardComponent } from './components/profile-card/profile-card.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DirectivesComponent } from './components/directives/directives.componen
     FirstComponentComponent,
     ProfileCardComponent,
     ParentDataComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule

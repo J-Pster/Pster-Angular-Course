@@ -1,0 +1,4 @@
+<h4 *ngIf="isAdmin; else IsNotAdmin" >Você está logado com permissão administrativa!</h4>
+<ng-template #IsNotAdmin>
+  <h4>Você não é administrador 🐶</h4>
+</ng-template>
