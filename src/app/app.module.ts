@@ -8,6 +8,8 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
+import { NumberShowComponent } from './components/number/number-show/number-show.component';
+import { NumberChangerComponent } from './components/number/number-changer/number-changer.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,12 @@ import { EventsComponent } from './components/events/events.component';
     ParentDataComponent,
     DirectivesComponent,
     IfRenderComponent,
-    EventsComponent
+    EventsComponent,
+    NumberShowComponent,
+    NumberChangerComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
