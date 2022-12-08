@@ -10,6 +10,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
 import { NumberShowComponent } from './components/number/number-show/number-show.component';
 import { NumberChangerComponent } from './components/number/number-changer/number-changer.component';
+import { ListDevelopersComponent } from './components/list-developers/list-developers.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { NumberChangerComponent } from './components/number/number-changer/numbe
     EventsComponent,
     NumberShowComponent,
     NumberChangerComponent,
+    ListDevelopersComponent,
   ],
   imports: [BrowserModule],
   providers: [],

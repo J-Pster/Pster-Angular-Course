@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import Developer from 'src/app/interfaces/IDeveloper';
 
 @Component({
   selector: 'app-profile-card',
@@ -6,13 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile-card.component.scss'],
 })
 export class ProfileCardComponent {
-  name: string = 'João Pster';
-  age: number = 25;
-  job: string = 'Developer';
-  location: string = 'São Paulo, Brazil';
-  bio: string =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc. Donec auctor, nisl eget ultricies lacinia, nunc nisl aliquam nisl, eget aliquam nunc nisl eget nunc.';
-  frameworks: string[] = ['Angular', 'React', 'Django', 'Express'];
+  @Input() developer!: Developer;
 
   constructor() {}
 }
